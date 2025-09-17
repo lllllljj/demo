@@ -1,5 +1,3 @@
-import numpy as np
-
 def calculate(lst):
     if len(lst) != 9:
         raise ValueError("List must contain nine numbers.")
@@ -21,3 +19,4 @@ def calculate(lst):
         'min': min_,
         'sum': sum_
     }
+print(calculate([0, 6, 8, 6, 9, 8, 10, 9, 9]))
